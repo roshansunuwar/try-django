@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- ARTICLE OBJECT: -->
+<h2 style="color:lightcoral;">ARTICLE OBJECT:</h2>
+<p style="color:blue;">{{ article_obj.title|title }}</p> <!-- capitalized the sentence -->
+<p style="color:blue;">{{ article_obj.content }}</p>
+<!-- ARTICLE OBJECT:+ -->
+
+
+<!-- ARTICLE ALL: -->
+<!-- displays all the data -->
+<!-- <h2 style="color:lightcoral;">ARTICLE ALL:</h2> -->
+<!-- <p>
+    {% for x in article_all %}
+    <li style="color:blue;">{{ x.title }} - {{ x.content }}</li>
+    {% endfor%}
+</p> -->
+<!-- ARTICLE FILTER:-->
+<!-- filter the items by its value -->
+<!-- <h2 style="color:lightcoral;">ARTICLE FILTER:</h2>
+<p>
+    {% for x in article_filter %}
+    <li style="color:blue;">{{ x.title }} - {{ x.content }}</li>
+    {% endfor%}
+</p> -->
+<!-- ARTICLE ORDER_BY:-->
+<!-- retrive the items randomly to the the given limits -->
+<!-- <h2 style="color:lightcoral;">ARTICLE ORDER_BY:</h2>
+<p>
+    {% for x in article_random %}
+    <li style="color:blue;">{{ x.title }} - {{ x.content }}</li>
+    {% endfor%}
+</p> -->
+
+
+<!-- ARTICLE CONDITIONS-->
+<!-- retrive the items according to the conditions -->
+<!-- <h2 style="color:lightcoral;">ARTICLE CONDITIONS:</h2>
+<p>
+    {% for x in article_conditions %}
+    <li style="color:blue;">{{ x.title }}</li>
+    {% endfor%}
+</p> -->
+<!-- 
+
+<h1 style="color: red;">{{ article_obj.title }}</h1>
+<p style="color: green;">{{ article_obj.content }}</p> -->
+
+
+{% endblock content %}

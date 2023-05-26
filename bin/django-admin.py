@@ -1,4 +1,4 @@
-#!/Users/roshan/vscode/django/tutorial/try-django/bin/python3.6
+#!/Users/roshan/vscode/django/tutorial/try-django/bin/python3.10
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
